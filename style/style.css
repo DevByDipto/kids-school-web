@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* common style */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.orange {
+    color: #FEA301;
+}
+
+.bg-orange {
+    background-color: #FEA301;
+}
+
+.sky-blue {
+    color: #01ACFD;
+}
+
+.bg-sky-blue {
+    background-color: #01ACFD;
+}
+
+.Bitter-Lemon {
+    color: #05D4DF;
+}
+
+.Neon-Blue {
+    color: #5D58EF;
+}
+
+.Light-Lime {
+    color: #64C8FF;
+}
+
+.bg-Light-Lime {
+    background-color: #64C8FF;
+}
+
+.Xanthous {
+    color: #F0AA00;
+}
+
+.Violet {
+    color: #8700FF;
+}
+
+.bg-Pea-Green {
+    background-color: #95B226;
+}
+
+.bg-Medium-Sky-Blue {
+    background-color: #3CD8E8;
+}
+
+
+.common-heading {
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+/* nav part start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px;
+}
+
+.nav-items {
+    gap: 32px;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-btn {
+    font-size: 20px;
+    color: white;
+    padding: 13px 60px;
+    border: none;
+    border-radius: 12px;
+}
+
+hr {
+    display: none;
+}
+
+.nav-image img {
+    width: 100%;
+}
+
+.icon {
+    display: none;
+    font-size: 30px;
+}
+
+/* banner part start */
+.banner {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-heading {
+    max-width: 570px;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.banner-description {
+    max-width: 640px;
+    font-size: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.banner-btn button {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 45px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    border: none;
+}
+
+/* curriculam part start */
+.curriculum {
+    background-image: url("../assets/bg.png");
+    /* background-size: contain; */
+}
+
+.curriculum-cards {
+    justify-content: space-between;
+}
+
+.curriculum-card {
+    padding: 52px 40px;
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+    margin-bottom: 80px;
+    border-radius: 18px;
+}
+
+.curriculum-card-image {
+    max-width: 136px;
+    max-width: 136px;
+    margin: 0 auto;
+}
+
+.curriculum-card-image img {
+    width: 100%;
+}
+
+.curriculum-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.curriculum-card-discription {
+    font-family: "Raleway", serif;
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 286px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.curriculum-card-btn {
+    text-align: center;
+}
+
+.curriculum-card-btn button {
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 20px;
+
+}
+
+.curriculum-card-one-btn button:hover {
+    background-color: rgb(100, 200, 255, 0.1);
+}
+
+.curriculum-card-two-btn button:hover {
+    background-color: rgb(240, 170, 0, 0.1);
+}
+
+.curriculum-card-three-btn button:hover {
+    background-color: rgb(135, 0, 255, 0.1)
+}
+
+.arrow-keys {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.arrow-key {
+    padding: 17px 22px;
+    color: white;
+    border-radius: 50%;
+}
+
+/* stories part start */
+.storis-cards {
+    display: grid;
+    grid-template-columns: 540px 291px 291px;
+    gap: 19px;
+}
+
+.story-card-one {
+    grid-row: span 2;
+}
+
+.Stories {
+    background-image: url("../assets/bg.png");
+}
+
+.story-card-one {
+    position: relative;
+}
+
+.story-card-one {
+    position: relative;
+}
+
+.story-card-one-btn {
+    position: absolute;
+    top: 313px;
+    left: 40px;
+}
+
+.story-card-one-btn button {
+    padding: 14px 19px;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+    border: none;
+    border-radius: 47px;
+    color: white;
+}
+
+.story-card-one-title {
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 402px;
+    margin-top: 36px;
+    margin-left: 38px;
+}
+
+.story-card-one-discription {
+    color: #666666;
+    margin-top: 47px;
+    margin-bottom: 34px;
+    max-width: 433px;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+    margin-left: 38px;
+
+}
+
+.story-common-card-title {
+    max-width: 241px;
+    margin-top: 43px;
+    margin-bottom: 28px;
+    margin-left: 37px;
+}
+
+.story-card {
+    position: relative;
+}
+
+.story-card-common-btn {
+    position: absolute;
+    top: 158px;
+    left: 40px;
+}
+
+.story-card-common-btn button {
+    padding: 10px 19px;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+    border: none;
+    border-radius: 47px;
+    color: white;
+}
+
+.stories-container-btn {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.stories-container-btn button {
+    padding: 10px 61px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+/* footer part start */
+.footer-heading {
+    display: inline-block;
+    max-width: 206px;
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-logo-image img {
+    max-width: 82px;
+    max-height: 82px;
+}
+
+.footer-coloum {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 123px;
+    padding-bottom: 174px;
+}
+
+.footer-discription {
+    font-size: 20px;
+    max-width: 400px;
+    margin-top: 35px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.footer-about {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.footer-item {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Keep-In-Touch {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.socalmedia-links {
+    display: flex;
+    gap: 10px;
+}
+
+/* responsive part start */
+@media screen and (max-width:567px) {
+
+    /* header part raesposive */
+    nav>button,
+    nav>ul>li {
+        display: none;
+    }
+
+    .icon {
+        display: inline-block;
+        padding-right: 16px;
+    }
+
+    hr {
+        display: block;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-heading {
+        font-size: 32px;
+        max-width: 327px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .banner-description {
+        max-width: 480px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 10px;
+    }
+
+    .banner-btn {
+        text-align: center;
+    }
+
+    /* curriculam part responsive */
+    .common-heading {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .curriculum-cards {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .curriculum-card {
+        padding: 36px 81px;
+        max-width: 357px;
+        max-height: 321px;
+        margin: 0 16px 12px 16px;
+
+    }
+
+    .curriculum-card-image {
+        max-height: 52px;
+        max-width: 52px;
+    }
+
+    .curriculum-card-title {
+        font-size: 16px;
+        margin-top: 22px;
+    }
+
+    .curriculum-card-discription {
+        margin: 22px auto;
+
+    }
+
+    .curriculum-card-btn {
+        margin-bottom: 30px;
+    }
+
+    .arrow-keys {
+        display: none;
+    }
+
+    /* stories part responsive */
+    .story-card-one {
+        display: none;
+    }
+
+    .common-heading {
+        font-size: 26px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .story-card {
+        max-width: 173px;
+        max-height: 179px;
+    }
+
+    .story-card img {
+        width: 100%;
+    }
+
+    .storis-cards {
+        display: grid;
+        grid-template-columns: 173px 173px;
+        gap: 11px;
+        justify-content: center;
+    }
+
+    .story-card-common-btn button {
+        font-size: 9px;
+        padding: 5px 10px;
+    }
+
+    .story-common-card-title {
+        margin-top: 25px;
+        margin-left: 22px;
+        margin-bottom: 19px;
+        font-size: 9px;
+        max-width: 117px;
+    }
+
+    .story-card-common-btn {
+        position: absolute;
+        top: 92px;
+        left: 8px;
+    }
+
+    .stories-container-btn {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .stories-container-btn button {
+        padding: 3px 37px;
+    }
+
+    /* footer responsive part */
+    .footer-coloum {
+        flex-direction: column;
+        padding-left: 16px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer-logo {
+        max-height: 69px;
+        max-width: 69px;
+    }
+
+    .footer-heading {
+        font-size: 35px;
+    }
+
+    .footer-discription {
+        font-size: 16px;
+        margin-top: 22px;
+        margin-bottom: 32px;
+    }
+
+    .footer-about {
+        margin-bottom: 27px;
+    }
+    .Keep-In-Touch{
+        padding-top: 32px;
+    }
+}
