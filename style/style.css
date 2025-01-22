@@ -210,7 +210,7 @@ hr {
 }
 
 .card-three {
-    background: linear-gradient(180.00deg, #EEE1FF, rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     border: 0.94px solid #F2E8FF;
 
 }
