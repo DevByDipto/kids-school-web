@@ -125,7 +125,15 @@ hr {
 .nav-image img {
     width: 100%;
 }
-
+.nav-image{
+    align-items: center;
+    gap: 11px;
+}
+.img-heading{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+}
 .icon {
     display: none;
     font-size: 30px;
@@ -167,7 +175,6 @@ hr {
 /* curriculam part start */
 .curriculum {
     background-image: url("../assets/bg.png");
-    /* background-size: contain; */
 }
 
 .curriculum-cards {
@@ -189,6 +196,23 @@ hr {
 
 .curriculum-card-image img {
     width: 100%;
+}
+
+.card-one {
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    border: 0.94px solid rgb(222, 245, 255);
+
+}
+
+.card-two {
+    background: linear-gradient(180.00deg, #FFF4DC, rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    border: 0.94px solid #FFF4DC;
+}
+
+.card-three {
+    background: linear-gradient(180.00deg, #EEE1FF, rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    border: 0.94px solid #F2E8FF;
+
 }
 
 .curriculum-card-title {
@@ -258,9 +282,12 @@ hr {
 }
 
 .Stories {
-    background-image: url("../assets/bg.png");
+    background: linear-gradient(0.00deg, rgb(254, 163, 1, 0.3), rgb(255, 255, 255) 100%), url("../assets/bg.png");
+    padding-bottom: 60px;
 }
-
+.story-card img{
+    border-radius: 16px;
+}
 .story-card-one {
     position: relative;
 }
@@ -312,6 +339,8 @@ hr {
 
 .story-card {
     position: relative;
+    background-color: white;
+    border-radius: 16px;
 }
 
 .story-card-common-btn {
@@ -332,7 +361,6 @@ hr {
 .stories-container-btn {
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 60px;
 }
 
 .stories-container-btn button {
@@ -381,7 +409,7 @@ hr {
 .footer-item {
     font-size: 20px;
     font-weight: 500;
-    color: white;
+    color: rgb(255, 255, 255, 0.9);
     margin-bottom: 20px;
 }
 
@@ -494,7 +522,6 @@ hr {
     .story-card-one {
         display: none;
     }
-
     .common-heading {
         font-size: 26px;
         margin-top: 40px;
@@ -561,7 +588,6 @@ hr {
     .footer-heading {
         font-size: 35px;
     }
-
     .footer-discription {
         font-size: 16px;
         margin-top: 22px;
@@ -571,7 +597,8 @@ hr {
     .footer-about {
         margin-bottom: 27px;
     }
-    .Keep-In-Touch{
+
+    .Keep-In-Touch {
         padding-top: 32px;
     }
 }
